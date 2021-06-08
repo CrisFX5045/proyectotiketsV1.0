@@ -1,0 +1,744 @@
+//VARIABLES
+$light-green: #00e0d0;
+$black: #413d4b;
+$gray: #b5b5b6;
+$light-purple: #9a93ad;
+
+
+/*
+font-family: 'Playfair Display', serif;
+font-weight: 400; -> Regular
+
+font-family: 'Playfair Display', serif;
+font-weight: 900; -> Black
+
+font-family: 'Roboto', sans-serif;
+font-weight: 300; -> Light
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400; -> Regular
+
+font-family: 'Roboto', sans-serif;
+font-weight: 900; -> Black
+*/
+
+
+
+body {
+  background-image: url("../img/Fondo.jpg")!important;
+  backdrop-filter: blur(4px);
+}
+
+
+
+.nav-item{
+    text-align: center;
+}
+.bg-light {
+    background: white;
+}
+
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 480px;
+    margin-bottom: 0;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: rgb(13 107 253 / 0%);
+    border-color: #000000;
+    margin-left: 10px;
+   
+}
+
+.navbar-toggler {
+    border: transparent!important;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    width: 100%;
+    text-align: left;
+}
+
+
+.logo-mobile{
+    text-align: center;
+}
+
+
+
+.buttons-bar-mobile{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+//MENU HAMBURGUESA MODERNO
+/* Important styles */
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 5px;
+
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+
+  color: tomato;
+  border-color: turquoise!important;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 10;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 73px;
+  padding-bottom: 100%;
+  padding-top: 150px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-150%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+
+ 
+}
+
+
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+
+// CARRUSEL!! IMAGENES
+
+.top-events{
+  text-align: center;
+  margin-top: 30px;
+  border-color: black;
+}
+
+a{
+	text-decoration:none;
+}
+.box{
+	width:300px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px;
+}
+.box-event{
+  box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 25px;
+}
+.slide-img{
+	height: 450px;
+	position:relative;
+}
+.slide-img img{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+.detail-box{
+	width: 100%;
+display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	font-family: calibri;
+
+}
+.type{
+	display: flex;
+	flex-direction: column;
+}
+.type a{
+	color:#ffffff;
+	margin: 5px 0px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+.type span{
+	color:rgba(255, 255, 255, 0.5);
+}
+.price{
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: poppins;
+	letter-spacing: 0.5px;
+}
+.overlay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	height: 100%;
+	background-color: rgba(92,95,236,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buy-btn{
+	width:160px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	color:#252525;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: calibri;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.buy-btn:hover{
+	color:#FFFFFF;
+	background-color: #f15fa3;
+	transition: all ease 0.3s;
+}
+.overlay{
+	visibility: hidden;
+}
+.slide-img:hover .overlay{
+	visibility: visible;
+	animation:fade 0.5s;
+}
+ 
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.slider{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.btn-group-vertical>.btn-check:checked+.btn, .btn-group-vertical>.btn-check:focus+.btn, .btn-group-vertical>.btn.active, .btn-group-vertical>.btn:active, .btn-group-vertical>.btn:focus, .btn-group-vertical>.btn:hover, .btn-group>.btn-check:checked+.btn, .btn-group>.btn-check:focus+.btn, .btn-group>.btn.active, .btn-group>.btn:active, .btn-group>.btn:focus, .btn-group>.btn:hover {
+  z-index: 0;
+}
+
+.lSAction > a {
+  width: 32px;
+  display: block;
+  top: 50%;
+  height: 32px;
+  background-image: url(../img/controls.png);
+  cursor: pointer;
+  position: absolute;
+  z-index: 0!important;
+  background: #ffffff33;
+  margin-top: -16px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.35s linear 0s;
+  transition: opacity 0.35s linear 0s;
+}
+
+
+
+.Evento{
+  background: rgb(255 255 255 / 85%);
+  padding-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.description-event{
+ 
+  border-color: rgb(0 0 0);
+  border-style: double;
+  background: radial-gradient(circle, #eeeeee 0%, rgb(255 255 255) 98%);
+  margin-bottom: 2%;
+}
+
+
+.w-100 {
+  width: 100% !important;
+}
+
+
+.carousel-item{
+  height: 50%;
+}
+
+.form-control {
+  border-radius: 0.50rem!important;
+
+}
+
+
+.d-flex {
+
+  margin-bottom: 0%;
+  display: flex!important;
+}
+
+fieldset {
+text-align: center;
+}
+
+
+
+.barra-abajo{
+  width: 100%;
+  padding: 2%;
+    margin-top: 1%;
+    background: #ffffff;
+    color: black;
+}
+
+h5{
+
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h6{
+text-align: center;
+
+}
+
+p{
+  text-align: justify;
+}
+
+.social{
+  padding: auto;
+}
+
+.social-iconos{
+  width: 5%;
+}
+
+.social-icons{
+  text-align: right;
+}
+
+.sesion{
+
+  color: white;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  h5{
+    text-align: center;
+  }
+}
+
+
+.barra-registro{
+  padding-left: 270px;
+}
+.barra-iniciar{
+  padding-left: 220px;
+}
+
+.formulario-crear{
+  background: #f1f1f1;
+  color: black;
+  margin-top: 3%;
+  width: 100%;
+  border-radius: 20px;
+  border-color: black;
+  h1{
+    text-align: center;
+  }
+}
+
+
+
+.iconos-numeros{
+
+  width: 10%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+
+fieldset{
+  
+  p{
+    margin-left: 5%;
+  }
+}
+
+
+h1{
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+}
+
+.btn-lear{
+  margin-bottom: 5%;
+  width: 75%;
+  position: relative;
+  a{
+
+      color: $black;
+       border: 2px solid $black; 
+      text-align: center;
+      margin-right: 70%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+  }
+
+  a:hover{
+      color: $light-green;
+      border: 2px solid $light-green; 
+  }
+
+}
+
+//Recuadro de Crear evento
+.cuadro-evento{
+  background: white;
+  border-radius: 20px;
+  }
+
+
+  p{
+      color: rgb(143, 143, 143);
+  }
+
+
+  h5{
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+    }
+
+    p{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+    }
+
+   
+    .texto-inicio{
+      align-items: center;
+      text-align: center;
+      border-radius: 20px;
+      padding-top: 1%;
+
+      h5{
+          margin-bottom: 0.5rem;
+          color: black;
+          margin-top: 1.5rem;
+      }
+      p{
+        text-align: center;
+      }
+    }
+
+  .wh-border{
+      &:after {
+          content: "";
+           position: absolute;
+           left: 49%;
+           display: block;
+           width: 2.7em;
+           padding-top: 0.25em;
+          border-bottom: 3px solid $gray;
+      }
+  }
+
+  
+
+.expertise-seccion{
+  background: white;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  
+  .row{
+      --bs-gutter-y: 3rem; 
+  }
+}
+
+.txt-items{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  h5{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+  }
+}
+
+.col-sm-4 {
+  text-align: center;
+  content: "";
+  display: block;
+
+}
+
+
+.items{
+  margin-top: 5%;
+}
+
+
+
+
+.archivos{
+  overflow: hidden;
+  width: 100%;
+}
+
+.buy-page{
+  background: #ffffff4d;
+  width: 100%;
+  height: 100%;
+  @media (max-width: 700px) { 
+    height: auto;
+  }
+
+  @media (max-height: 700px) { 
+    height: auto;
+  }
+
+ 
+}
+
+.buy-description{
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-top: 4%;
+  @media (max-width: 800px) { 
+  margin-right: 10%;
+  margin-left: 10%;
+  }
+}
+
+.box-buy{
+  border-radius: 20px;
+  background: white;
+}
+
+
+.img-buy {
+  width: 100%!important;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.card-img-top{
+  width: 65%;
+  margin-bottom: 20px;
+  margin-left: 18%;
+    @media (max-width: 800px) { 
+      width: 100%;
+      margin-left: 0%;
+    }
+
+}
+
+h6{
+  text-align: left;
+}
+
+
+
+select {
+  
+  word-wrap: normal;
+
+  @media (max-width: 800px) { 
+    width: 65%;
+
+  }
+}
+
+.total-texto{
+width: 100%;
+  h4{
+    text-align: right;
+  }
+}
+
+.button-buy{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-expand-lg .navbar-collapse {
+
+  @media (max-width: 1025px){
+   display: none!important;
+   flex-basis: none!important;
+  }
+}
+
+.navbar-expand-lg .navbar-toggler {
+
+  @media (max-width: 1025px){
+      display:block !important;
+      padding: .25rem .75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: box-shadow .15s ease-in-out;
+
+  }
+    
+}
