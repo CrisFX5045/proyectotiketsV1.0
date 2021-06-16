@@ -63,9 +63,9 @@
                                 <a class="navbar-brand" href="#"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
                                  </div>
                                  <div class="buttons-bar-mobile">
-                                  <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+                                  <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
         
-                                     <a href="index_iniciar_sesion.html"><input class="btn btn-primary" type="button" value="Iniciar Sesion"></a>
+                                     <a href="index_iniciar_sesion.php"><input class="btn btn-primary" type="button" value="Iniciar Sesion"></a>
         
                                  </div>
 
@@ -93,7 +93,7 @@
                         <a class="nav-link" href="#">Features</a>
                       </li>
                       <li>
-                        <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
@@ -107,9 +107,9 @@
                       <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                    
-                    <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+                    <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-                    <a href="index_iniciar_sesion.html"><input class="btn btn-primary" type="button" value="Iniciar Sesion"></a>
+                    <a href="index_iniciar_sesion.php"><input class="btn btn-primary" type="button" value="Iniciar Sesion"></a>
                   </div>
 
                  
@@ -155,18 +155,18 @@
       <!--overlayer---------->
       <div class="overlay">
       <!--buy-btn------>	
-      <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+      <a href="index_buy.php" class="buy-btn">Buy Now</a>	
       </div>
       </div>
       <!--detail-box--------->
       <div class="detail-box">
       <!--type-------->
       <div class="type">
-      <a href="index_Evento.html">Eveto espacial</a>
+      <a href="index_Evento.php">Eveto espacial</a>
       <span>Un evento de camaras que graban el espacio</span>
       </div>
       <!--price-------->
-      <a href="index_buy.html" class="price">$23</a>
+      <a href="index_buy.php" class="price">$23</a>
         
       </div>
       
@@ -182,18 +182,18 @@
       <!--overlayer---------->
       <div class="overlay">
       <!--buy-btn------>	
-      <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+      <a href="index_buy.php" class="buy-btn">Buy Now</a>	
       </div>
       </div>
       <!--detail-box--------->
       <div class="detail-box">
       <!--type-------->
       <div class="type">
-      <a href="index_Evento.html">Evento interplanetario</a>
+      <a href="index_Evento.php">Evento interplanetario</a>
       <span>Evento que graba diferentes planetas lejanos</span>
       </div>
       <!--price-------->
-      <a href="index_buy.html" class="price">$20</a>
+      <a href="index_buy.php" class="price">$20</a>
         
       </div>
       
@@ -209,18 +209,18 @@
             <!--overlayer---------->
             <div class="overlay">
             <!--buy-btn------>	
-            <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+            <a href="index_buy.php" class="buy-btn">Buy Now</a>	
             </div>
             </div>
             <!--detail-box--------->
             <div class="detail-box">
             <!--type-------->
             <div class="type">
-            <a href="index_Evento.html">Evento interplanetario</a>
+            <a href="index_Evento.php">Evento interplanetario</a>
             <span>Evento que graba diferentes planetas lejanos</span>
             </div>
             <!--price-------->
-            <a href="index_buy.html" class="price">$20</a>
+            <a href="index_buy.php" class="price">$20</a>
               
             </div>
             
@@ -236,18 +236,18 @@
               <!--overlayer---------->
               <div class="overlay">
               <!--buy-btn------>	
-              <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+              <a href="index_buy.php" class="buy-btn">Buy Now</a>	
               </div>
               </div>
               <!--detail-box--------->
               <div class="detail-box">
               <!--type-------->
               <div class="type">
-              <a href="index_Evento.html">Evento interplanetario</a>
+              <a href="index_Evento.php">Evento interplanetario</a>
               <span>Evento que graba diferentes planetas lejanos</span>
               </div>
               <!--price-------->
-              <a href="index_buy.html" class="price">$20</a>
+              <a href="index_buy.php" class="price">$20</a>
                 
               </div>
               
@@ -263,18 +263,18 @@
                 <!--overlayer---------->
                 <div class="overlay">
                 <!--buy-btn------>	
-                <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+                <a href="index_buy.php" class="buy-btn">Buy Now</a>	
                 </div>
                 </div>
                 <!--detail-box--------->
                 <div class="detail-box">
                 <!--type-------->
                 <div class="type">
-                <a href="index_Evento.html">Evento interplanetario</a>
+                <a href="index_Evento.php">Evento interplanetario</a>
                 <span>Evento que graba diferentes planetas lejanos</span>
                 </div>
                 <!--price-------->
-                <a href="index_buy.html" class="price">$20</a>
+                <a href="index_buy.php" class="price">$20</a>
                   
                 </div>
                 
@@ -291,18 +291,18 @@
             <!--overlayer---------->
             <div class="overlay">
             <!--buy-btn------>	
-            <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+            <a href="index_buy.php" class="buy-btn">Buy Now</a>	
             </div>
             </div>
             <!--detail-box--------->
             <div class="detail-box">
             <!--type-------->
             <div class="type">
-            <a href="index_Evento.html">Evento interplanetario</a>
+            <a href="index_Evento.php">Evento interplanetario</a>
             <span>Evento que graba diferentes planetas lejanos</span>
             </div>
             <!--price-------->
-            <a href="index_buy.html" class="price">$20</a>
+            <a href="index_buy.php" class="price">$20</a>
               
             </div>
             
@@ -318,18 +318,18 @@
             <!--overlayer---------->
             <div class="overlay">
             <!--buy-btn------>	
-            <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+            <a href="index_buy.php" class="buy-btn">Buy Now</a>	
             </div>
             </div>
             <!--detail-box--------->
             <div class="detail-box">
             <!--type-------->
             <div class="type">
-            <a href="index_Evento.html">Evento interplanetario</a>
+            <a href="index_Evento.php">Evento interplanetario</a>
             <span>Evento que graba diferentes planetas lejanos</span>
             </div>
             <!--price-------->
-            <a href="index_buy.html" class="price">$20</a>
+            <a href="index_buy.php" class="price">$20</a>
               
             </div>
             
@@ -345,18 +345,18 @@
             <!--overlayer---------->
             <div class="overlay">
             <!--buy-btn------>	
-            <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+            <a href="index_buy.php" class="buy-btn">Buy Now</a>	
             </div>
             </div>
             <!--detail-box--------->
             <div class="detail-box">
             <!--type-------->
             <div class="type">
-            <a href="index_Evento.html">Evento interplanetario</a>
+            <a href="index_Evento.php">Evento interplanetario</a>
             <span>Evento que graba diferentes planetas lejanos</span>
             </div>
             <!--price-------->
-            <a href="index_buy.html" class="price">$20</a>
+            <a href="index_buy.php" class="price">$20</a>
               
             </div>
             
@@ -375,18 +375,18 @@
             <!--overlayer---------->
             <div class="overlay">
             <!--buy-btn------>	
-            <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+            <a href="index_buy.php" class="buy-btn">Buy Now</a>	
             </div>
             </div>
             <!--detail-box--------->
             <div class="detail-box">
             <!--type-------->
             <div class="type">
-            <a href="index_Evento.html">Evento interplanetario</a>
+            <a href="index_Evento.php">Evento interplanetario</a>
             <span>Evento que graba diferentes planetas lejanos</span>
             </div>
             <!--price-------->
-            <a href="index_buy.html" class="price">$20</a>
+            <a href="index_buy.php" class="price">$20</a>
               
             </div>
             
@@ -403,18 +403,18 @@
             <!--overlayer---------->
             <div class="overlay">
             <!--buy-btn------>	
-            <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+            <a href="index_buy.php" class="buy-btn">Buy Now</a>	
             </div>
             </div>
             <!--detail-box--------->
             <div class="detail-box">
             <!--type-------->
             <div class="type">
-            <a href="index_Evento.html">Evento interplanetario</a>
+            <a href="index_Evento.php">Evento interplanetario</a>
             <span>Evento que graba diferentes planetas lejanos</span>
             </div>
             <!--price-------->
-            <a href="index_buy.html" class="price">$20</a>
+            <a href="index_buy.php" class="price">$20</a>
               
             </div>
             
@@ -430,18 +430,18 @@
               <!--overlayer---------->
               <div class="overlay">
               <!--buy-btn------>	
-              <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+              <a href="index_buy.php" class="buy-btn">Buy Now</a>	
               </div>
               </div>
               <!--detail-box--------->
               <div class="detail-box">
               <!--type-------->
               <div class="type">
-              <a href="index_Evento.html">Evento interplanetario</a>
+              <a href="index_Evento.php">Evento interplanetario</a>
               <span>Evento que graba diferentes planetas lejanos</span>
               </div>
               <!--price-------->
-              <a href="index_buy.html" class="price">$20</a>
+              <a href="index_buy.php" class="price">$20</a>
                 
               </div>
               
@@ -457,18 +457,18 @@
                 <!--overlayer---------->
                 <div class="overlay">
                 <!--buy-btn------>	
-                <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+                <a href="index_buy.php" class="buy-btn">Buy Now</a>	
                 </div>
                 </div>
                 <!--detail-box--------->
                 <div class="detail-box">
                 <!--type-------->
                 <div class="type">
-                <a href="index_Evento.html">Evento interplanetario</a>
+                <a href="index_Evento.php">Evento interplanetario</a>
                 <span>Evento que graba diferentes planetas lejanos</span>
                 </div>
                 <!--price-------->
-                <a href="index_buy.html" class="price">$20</a>
+                <a href="index_buy.php" class="price">$20</a>
                   
                 </div>
                 
@@ -484,18 +484,18 @@
                   <!--overlayer---------->
                   <div class="overlay">
                   <!--buy-btn------>	
-                  <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+                  <a href="index_buy.php" class="buy-btn">Buy Now</a>	
                   </div>
                   </div>
                   <!--detail-box--------->
                   <div class="detail-box">
                   <!--type-------->
                   <div class="type">
-                  <a href="index_Evento.html">Evento interplanetario</a>
+                  <a href="index_Evento.php">Evento interplanetario</a>
                   <span>Evento que graba diferentes planetas lejanos</span>
                   </div>
                   <!--price-------->
-                  <a href="index_buy.html" class="price">$20</a>
+                  <a href="index_buy.php" class="price">$20</a>
                     
                   </div>
                   
@@ -511,18 +511,18 @@
                     <!--overlayer---------->
                     <div class="overlay">
                     <!--buy-btn------>	
-                    <a href="index_buy.html" class="buy-btn">Buy Now</a>	
+                    <a href="index_buy.php" class="buy-btn">Buy Now</a>	
                     </div>
                     </div>
                     <!--detail-box--------->
                     <div class="detail-box">
                     <!--type-------->
                     <div class="type">
-                    <a href="index_Evento.html">Evento interplanetario</a>
+                    <a href="index_Evento.php">Evento interplanetario</a>
                     <span>Evento que graba diferentes planetas lejanos</span>
                     </div>
                     <!--price-------->
-                    <a href="index_buy.html" class="price">$20</a>
+                    <a href="index_buy.php" class="price">$20</a>
                       
                     </div>
                     

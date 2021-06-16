@@ -40,7 +40,7 @@
                           <span></span>
                           
                           <ul id="menu">
-                            <a aria-current="page" href="index.html"><li>Eventos</li></a>
+                            <a aria-current="page" href="index.php"><li>Eventos</li></a>
                             <a href="#"><li>About</li></a>
                             <a href="#"><li>Info</li></a>
                             <a href="#"><li>Contact</li></a>
@@ -50,12 +50,12 @@
                       </nav>
                     
                     <div class="logo-mobile">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
                          </div>
                          <div class="buttons-bar-mobile">
-                          <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+                          <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-                             <a href="index_iniciar_sesion.html"><input class="btn btn-primary" type="button" value="Inciar Sesion"></a>
+                             <a href="index_iniciar_sesion.php"><input class="btn btn-primary" type="button" value="Inciar Sesion"></a>
 
                          </div>
                        
@@ -78,7 +78,7 @@
                 <a class="nav-link" href="#">Features</a>
               </li>
               <li>
-                <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -89,9 +89,9 @@
             </ul>
 
            
-            <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+            <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-            <a href="index_iniciar_sesion.html"><input class="btn btn-primary" type="button" value="Iniciar Sesion"></a>
+            <a href="index_iniciar_sesion.php"><input class="btn btn-primary" type="button" value="Iniciar Sesion"></a>
           </div>
 
          
@@ -111,7 +111,7 @@
    
 
                     <div class="col-12 col-sm-6 ">
-                        <a href="index_Evento.html"><H5>Evento Espacial</H5></a>
+                        <a href="index_Evento.php"><H5>Evento Espacial</H5></a>
 
                         <div class="img-buy" style="width: 18rem;">
                             <img src="img/1.png" class="card-img-top" alt="...">
@@ -215,7 +215,7 @@
 
                               <div class="button-buy">
 
-                                <a href="index.html"><input class="btn btn-primary" type="button" value="Buy Tiket"></a>
+                                <a href="index.php"><input class="btn btn-primary" type="button" value="Buy Tiket"></a>
 
                               </div>
                              

@@ -50,12 +50,12 @@
                       </nav>
                     
                     <div class="logo-mobile">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
                          </div>
                          <div class="buttons-bar-mobile">
                             <input class="btn btn-primary" type="button" value="Crear Evento">
 
-                             <a href="index_registrarse.html"><input class="btn btn-primary" type="button" value="Registrarse"></a>
+                             <a href="index_registrarse.php"><input class="btn btn-primary" type="button" value="Registrarse"></a>
 
                          </div>
 
@@ -83,7 +83,7 @@
                 <a class="nav-link" href="#">Features</a>
               </li>
               <li>
-                <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -99,7 +99,7 @@
             </form>
             <input class="btn btn-primary" type="button" value="Crear Evento">
 
-            <a href="index_registrarse.html"><input class="btn btn-primary" type="button" value="Registrarse"></a>
+            <a href="index_registrarse.php"><input class="btn btn-primary" type="button" value="Registrarse"></a>
           </div>
 
          

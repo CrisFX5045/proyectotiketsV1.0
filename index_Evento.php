@@ -50,12 +50,12 @@
                       </nav>
                     
                     <div class="logo-mobile">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
                          </div>
                          <div class="buttons-bar-mobile">
-                            <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+                            <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-                             <a href="index_registrarse.html"><input class="btn btn-primary" type="button" value="Registrarse"></a>
+                             <a href="index_registrarse.php"><input class="btn btn-primary" type="button" value="Registrarse"></a>
 
                          </div>
                          <form class="d-flex">
@@ -83,7 +83,7 @@
                 <a class="nav-link" href="#">Features</a>
               </li>
               <li>
-                <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -101,9 +101,9 @@
             </form>
            
 
-            <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+            <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-            <a href="index_registrarse.html"><input class="btn btn-primary" type="button" value="Registrarse"></a>
+            <a href="index_registrarse.php"><input class="btn btn-primary" type="button" value="Registrarse"></a>
           </div>
 
          
@@ -181,19 +181,19 @@
                                     <th scope="row">1</th>
                                     <td>California</td>
                                     <td>3</td>
-                                    <td> <a href="index_buy.html"><button class="btn btn-primary" type="button">Comprar Boleto</button></a></td>
+                                    <td> <a href="index_buy.php"><button class="btn btn-primary" type="button">Comprar Boleto</button></a></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">2</th>
                                     <td>Mexico</td>
                                     <td>54</td>
-                                    <td> <a href="index_buy.html"><button class="btn btn-primary" type="button">Comprar Boleto</button></a></td>
+                                    <td> <a href="index_buy.php"><button class="btn btn-primary" type="button">Comprar Boleto</button></a></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">3</th>
                                     <td>Costa Rica</td>
                                     <td>152</td>
-                                    <td> <a href="index_buy.html"><button class="btn btn-primary" type="button">Comprar Boleto</button></a></td>
+                                    <td> <a href="index_buy.php"><button class="btn btn-primary" type="button">Comprar Boleto</button></a></td>
                                   </tr>
                                 </tbody>
                               </table>

@@ -50,12 +50,12 @@
                       </nav>
                     
                     <div class="logo-mobile">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
                          </div>
                          <div class="buttons-bar-mobile">
-                          <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+                          <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-                             <a href="index_registrarse.html"><input class="btn btn-primary" type="button" value="Registrarse"></a>
+                             <a href="index_registrarse.php"><input class="btn btn-primary" type="button" value="Registrarse"></a>
 
                          </div>
                        
@@ -78,7 +78,7 @@
                 <a class="nav-link" href="#">Features</a>
               </li>
               <li>
-                <a class="navbar-brand" href="index.html"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
+                <a class="navbar-brand" href="index.php"> <img src="img/logos/LogoPrincipal.png" alt="Banner"> </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -89,9 +89,9 @@
             </ul>
 
            
-            <a href="index_crear_evento.html"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
+            <a href="index_crear_evento.php"><input class="btn btn-primary" type="button" value="Crear Evento"></a>
 
-            <a href="index_registrarse.html"><input class="btn btn-primary" type="button" value="Registrarse"></a>
+            <a href="index_registrarse.php"><input class="btn btn-primary" type="button" value="Registrarse"></a>
           </div>
 
          
@@ -133,7 +133,7 @@
                        
                         <button type="submit" class="btn btn-primary">Submit</button>
 
-                        <a href="index_registrarse.html"><button type="button" class="btn btn-primary">Registrarse</button></a>
+                        <a href="index_registrarse.php"><button type="button" class="btn btn-primary">Registrarse</button></a>
                       </form>
 
                 </div>
